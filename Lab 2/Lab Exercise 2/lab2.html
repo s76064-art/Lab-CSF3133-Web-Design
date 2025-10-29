@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Perosnal Website</h1>
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="">Projects</a>|
+            <a href="">Donate</a>|
+        </nav>
+    </header>
+    <section>
+        <h2>Biodata</h2>
+        <img src="pfp.jpeg" alt="My picture here" width="200px">
+        <article>
+            <p>Hi! My name is Syamil Bin Md Noor. I’m passionate about <strong>game development</strong>, where I enjoy
+                creating fun and
+                interactive experiences for players.<br> When I’m not developing, I love playing games, exploring how
+                different mechanics and systems work behind the scenes. My favorite game is <em>Minecraft</em>, because
+                <br>
+                it inspires creativity, problem-solving, and endless imagination the same qualities<br> <em>I try to
+                    bring into my own
+                    projects.</em>
+            </p>
+        </article>
+    </section>
+    <section>
+        <h2>Friends List</h2>
+        <table border="1px">
+            <tr>
+                <th colspan="3">Friends</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Favourite Animal</th>
+            </tr>
+            <tr>
+                <td>William Afton</td>
+                <td>43</td>
+                <td>Rabbit</td>
+            </tr>
+            <tr>
+                <td>Michael Brown</td>
+                <td>32</td>
+                <td>Wolf</td>
+            </tr>
+            <tr>
+                <td>Mark Adam</td>
+                <td>27</td>
+                <td>Panda</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <h2>Tell Me About Yourself</h2>
+        <form action="index.php" method="GET">
+            <label for="name">Name: </label>
+            <input type="text" maxlength="32" id="name" required> <br><br>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" required> <br><br>
+
+            <label>Gender: </label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label>Hobbies: </label><br>
+            <input type="checkbox" id="gaming">
+            <label for="gaming">Gaming</label>
+            <input type="checkbox" id="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="swimming">
+            <label for="swimming">Swimming</label>
+            <br>
+            <input type="checkbox" id="driving">
+            <label for="driving">Driving</label>
+            <input type="checkbox" id="sports">
+            <label for="sports">Playing sports</label>
+            <input type="checkbox" id="movies">
+            <label for="movies">Watching movies</label><br><br>
+
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
