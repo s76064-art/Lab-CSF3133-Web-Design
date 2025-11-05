@@ -18,8 +18,11 @@
 ---
 # Lab 3
 ## Description
-  lorem
+  Introduction of HTML5 is the main focus for this lab. It expose us to the types of elements (inline and block), div and       output elements.
 ## What did I achieved
-  - Lorem
+  - I can differentiate between inline and block elements effectively
+  - Use div element to organize the website more cleanly
+  - Apply HTML entities to display special characters
+  - Utilize output element to display dynamic result.
 
 
