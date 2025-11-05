@@ -16,5 +16,10 @@
   - Explore the use of the form element and its associate element tags such as input, select and etc.
   - Understand the use of colspan and rowspan in order to merge cells in a table.
 ---
+# Lab 3
+## Description
+  lorem
+## What did I achieved
+  - Lorem
 
 
