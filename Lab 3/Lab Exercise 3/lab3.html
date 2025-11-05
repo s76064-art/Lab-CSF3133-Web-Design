@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+</head>
+
+<body style="margin: 0%; background-color: rgb(214, 214, 214);">
+    <!--Header of the webiste-->
+    <div id="header"
+        style="background-color: rgb(24, 108, 218); color: rgb(255, 255, 255);  height: 100px; display: flexbox; align-items: center;">
+        <h1 style="margin-top: 0px; margin-bottom: 0px; margin-left: 30px; padding-top: 15px;">Welcome To My Calculator
+        </h1>
+        <span style="margin-top: 10px; margin-left: 60px; font-style: italic; font-size: 18px;">The fastest calculator in
+            the world</span>
+    </div>
+
+    <!--Content-->
+    <div id="content"
+        style="width: 80%; height: auto; margin: auto; margin-bottom: 30px; margin-top: 3%; display: flex; justify-content: center; align-items: center;">
+
+        <!--Calculator-->
+        <section id="calculator"
+            style="background-color: rgb(255, 255, 255); margin-top: 50px; border-radius: 10px; text-align: center; width: 45%; margin-right: 10px;">
+            <h2
+                style="text-align: center; padding: 30px; font-size: 35px; margin-bottom: 10px; padding-bottom: 10px; margin-top: 0px;">
+                Addition</h2>
+            <form oninput="z.value = Number(valX.value) + Number(valY.value)" style="height: 150px;">
+                <input for="x" id="valX" type="number" value="0">
+                <br>
+                <label style="font-size: 30px;">+</label>
+                <br>
+                <input for="y" id="valY" type="number" value="0">
+                <br>
+                <div
+                    style="background-color: rgb(240, 162, 18); width: 80px; height: 20px; margin: auto; margin-top: 30px; margin-bottom: 30px; display: flex; 
+                    align-items: center; justify-content: center; padding: 3px; border-radius: 5px; border: 1px; border-style: solid;">
+                    <output name="z" for="valX valY" style="font-size: 21px;">0</output>
+                </div>
+            </form>
+        </section>
+
+        <!--Feedback-->
+        <section id="feedback"
+            style="background-color: rgb(240, 162, 18); margin-top: 50px; border-radius: 10px; text-align: center; width: 45%; margin-left: 10px;">
+            <h2
+                style="text-align: center; padding: 30px; font-size: 35px; margin-bottom: 10px; padding-bottom: 10px;  margin-top: 0px;">
+                Feedback</h2>
+
+            <form action="#" method="get" style="height: 150px;">
+                <div style="margin-top: 10px;">
+                    <label id="email">E-mail: </label>
+                    <input for="email" type="email" placeholder="E-mail" required>
+                </div>
+                <div style="margin-top: 10px;">
+                    <label id="date">Date: </label>
+                    <input for="date" type="date" required>
+                </div>
+                <div style="margin-top: 10px;">
+                    <label id="date">Satisfactory: 0</label>
+                    <input for="date" type="range" min="0" max="5" step="1" value="0" required>
+                    <label>5</label>
+                </div>
+                <div style="margin-top: 20px; margin-bottom: 30px;">
+                    <input type="submit" value="Submit Feedback">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <div id="footer"
+        style="background-color: rgb(24, 108, 218); color: rgb(255, 255, 255); height: 60px; width: 100%; position: fixed; left: 0; 
+        bottom: 0; text-align: center; display: inline; align-content: center;">
+        <footer>
+            <span style="padding: 10px;">&copy; Syamil Bin Md Noor</span>
+            <span style="padding: 10px;">Contact: 012-2613710</span>
+            <a href="mailto:s76064@ocean.umt.edu.my" style="padding: 10px; text-decoration: none; color: rgb(255, 255, 255);">S76064@ocean.umt.edu.my</a>
+        </footer>
+    </div>
+</body>
+
+</html>
