@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>My Website</h1>
+        <h3>The best website in the world</h3>
+    </header>
+    <!--Naviagation Bar-->
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Hobby</a></li>
+            <li><a href="">Biodata</a></li>
+        </ul>
+    </nav>
+
+    <main style="height: 750px;">
+        <!--Form-->
+        <section class="form-section">
+            <h3
+                style="text-align: center; color: white; font-size: 30px; padding: 50px; background-color: rgb(32, 156, 115);">
+                Tell Me About Youself</h3>
+            <form">
+                <div class="input">
+                    <label for="name" style="display: block; text-align: center;">Name: </label>
+                    <input type="text" id="name" style="width: 60%;">
+                </div>
+
+                <div class="input">
+                    <label for="email">Email </label>
+                    <input type="email" id="email" style="width: 60%;">
+                </div>
+
+                <div class="input">
+                    <label>Gender:</label>
+                    <span>
+                        <input type="radio" name="Gender" value="male">
+                        <label>Male</label>
+
+                        <input type="radio" name="Gender" value="female">
+                        <label>Female</label>
+                    </span>
+                </div>
+
+                <div class="input">
+                    <label>Hobbies</label>
+                    <span>
+                        <input type="checkbox" value="gaming">
+                        <label>Gaming</label>
+                        <input type="checkbox" value="driving">
+                        <label>Driving</label>
+                        <input type="checkbox" value="coding">
+                        <label>Coding</label>
+                    </span>
+                </div>
+
+                <div class="input">
+                    <input type="submit" class="submit-button"
+                        style=" border-style: none; background-color: orange; padding: 10px; border-radius: 5px;">
+                </div>
+
+                </form>
+        </section>
+
+        <!--Main content-->
+        <section class="content">
+            <h2>My Hobby</h2>
+             <video controls><source src = "video.mp4" type="video/mp4"></video>
+            <article>
+                <p><span class="span-overline">Coding has always been more than just a hobby</span> for me—it's a creative outlet and a way to solve
+                    real-world problems.<span class="span-underline">I enjoy the process of turning</span> ideas into functional applications, whether it's
+                    building a simple website or experimenting with machine learning models. The constant evolution of
+                    technology keeps me curious and<span class="span-line-through"> motivated to learn new languages, frameworks, and tools</span>. For me,
+                    coding is like solving a puzzle—each bug fixed and feature completed brings a sense of
+                    accomplishment and joy.</p>
+
+            </article>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <address>
+            &copy;Syamil Bin Md Noor
+            Contant me: <a href="mailto:S76064@ocean.umt.edu.my">S76064@ocean.umt.edu.my</a>
+            <a href="https://mynemov3.umt.edu.my/mynemov3/login">More Info</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
