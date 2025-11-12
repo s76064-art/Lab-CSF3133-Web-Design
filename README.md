@@ -24,5 +24,18 @@
   - Use div element to organize the website more cleanly
   - Apply HTML entities to display special characters
   - Utilize output element to display dynamic result.
+---
+# Lab 4  
+## Description  
+This lab focused on building foundational skills in HTML5 and CSS. Students learned how to structure webpages semantically, embed multimedia content, and apply styling techniques to enhance layout and user experience.
+
+## What did I achieved  
+- Used semantic HTML5 elements to create a meaningful and organized webpage layout  
+- Embedded video content using the `<video>` tag  
+- Applied CSS selectors, properties, and values to style elements effectively  
+- Differentiated between ID and class selectors for targeted styling  
+- Designed a functional navigation bar using CSS layout techniques  
+- Enhanced text presentation with font styling, alignment, and decoration  
+- Styled link states (hover, visited, active) to improve interactivity
 
 
