@@ -37,5 +37,16 @@ This lab focused on building foundational skills in HTML5 and CSS. Students lear
 - Designed a functional navigation bar using CSS layout techniques  
 - Enhanced text presentation with font styling, alignment, and decoration  
 - Styled link states (hover, visited, active) to improve interactivity
+---
+# Lab 5 
+## Description  
+This lab focused on improving web design using CSS.
+
+## What did I achieved  
+- Understand the difference between inline, embeded and external CSS.
+- Knowing how to make a proper navigation bar as well as dropdown menu
+- Apply background image using background-image syntax
+- Customize tables using CSS
+- Applying all this knowledge to make a functional website 
 
 
