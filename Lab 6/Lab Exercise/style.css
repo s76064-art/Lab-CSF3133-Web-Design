@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(0, 2%, 77%);
+    background-image: url(Images/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(232, 236, 240);
+    width: 80%;
+    height: 80%;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.container h1 {
+    color: white;
+    background-color: hsl(0, 0%, 31%);
+    padding: .5em 0;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .question {
+    font-size: 2em;
+    background-color: rgb(231, 228, 228);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1em 0;
+    border: 0.1em inset hsl(300, 14%, 23%);
+    border-radius: 0.5em;
+    width: 80%;
+    margin-bottom: 2em;
+    margin-top: .5em;
+}
+
+form .timer {
+    font-size: 2em;
+    margin: 1em;
+}
+
+form .main-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    width: 80%;
+}
+
+form .main-items .question-item {
+    width: 40%;
+    background-color: rgb(232, 234, 233);
+    border: 0.1em inset hsl(300, 14%, 23%);
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.7em .5em;
+    cursor: pointer;
+}
+
+form .main-items .question-item input[type="radio"] {
+    display: none;
+}
+
+form button {
+    margin-top: 6em;
+    font-size: 1.5em;
+    padding: .3em 1em;
+    border-radius: .3em;
+    background-color: hsl(120, 70%, 57%);
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result h1 {
+    width: 100%;
+    background-color: rgb(165, 112, 214);
+}
+
+.result h2 {
+    font-size: 9em;
+}
+
+.result div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.feedback {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+    display: none;
+}
