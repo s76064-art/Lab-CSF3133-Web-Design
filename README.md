@@ -48,5 +48,16 @@ This lab focused on improving web design using CSS.
 - Apply background image using background-image syntax
 - Customize tables using CSS
 - Applying all this knowledge to make a functional website 
+---
+# Lab 6 
+## Description  
+This lab introduce the use of JavaScript
+
+## What did I achieved  
+- Understand the basic fundamentals of JavaScript
+- Knowing the difference between internal and external JavaScript
+- Understand how to use getByElementId() properly
+- Manipulating events
+- Apply JavaScript to make a functional quiz website
 
 
