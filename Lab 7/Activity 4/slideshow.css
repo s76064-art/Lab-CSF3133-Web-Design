@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: #f4f4f4;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 80%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .3);
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    align-items: center;       
+    justify-content: center;   
+    background-color: #ececec;
+    width: 100%;
+    height: 100%;
+}
+
+
+.slide img {
+    width: 30%;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.fade {
+    animation: fadeEffect 1s ease-in-out;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
