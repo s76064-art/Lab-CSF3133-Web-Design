@@ -60,4 +60,15 @@ This lab introduce the use of JavaScript
 - Manipulating events
 - Apply JavaScript to make a functional quiz website
 
+---
+# Lab 7 
+## Description  
+On this lab, the lab explores even deeper regarding how to utilize Javascript with HTML and CSS
+
+## What did I achieved
+- Manage to built a slideshow
+- Using animation to make the website much more smoother and polished
+- Undersrand the use of 'document.querySelector()'
+- Creating progress bar or loading bar
+- Understand the use of event listeners in Javascript
 
