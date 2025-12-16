@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>Game Community</h1>
+    </header>
+
+    <!--Loading-->
+    <div class="loading-container" id="loading-container">
+        <div class="loading-group">
+            <h1>Loading Page...</h1>
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Banner-->
+    <div class="banner-container">
+        <img class="banner" src="Images/login-background.jpg" alt="Banner">
+        <h2>Welcome back, Admin</h2>
+    </div>
+
+    <!--Side nav-->
+    <div class="side-nav">
+        <a href="index.html#new">What's new</a>
+        <a href="index.html#forza">Forza Horizon</a>
+        <a href="index.html#minecraft">Minecraft</a>
+    </div>
+
+    <!--Contents-->
+    <div class="section-container">
+
+        <!--Slideshow-->
+        <section class="slideshow" id="new">
+            <div class="slide"> <img class="slide-img" src="Images/slideshow1.jpg" alt="Game banner"></div>
+            <div class="slide"> <img class="slide-img" src="Images/slideshow2.jpg" alt="Game banner"></div>
+            <div class="slide"> <img class="slide-img" src="Images/slideshow3.jpg" alt="Forza banner"></div>
+        </section>
+
+        <!--Forza horizon info-->
+        <section id="forza">
+            <div class="collapse-container">
+                <img src="Images/forza.jfif" class="section-img" alt="Forza Horizon 5">
+                <p>
+                    Forza Horizon is an open-world racing game where players explore stunning landscapes, race on roads
+                    and off-road tracks, and customize their cars. With dynamic weather, changing seasons, and exciting
+                    events, it combines speed, adventure, and freedom in a vibrant, living world.
+                </p>
+                <button id="collapse-button">More</button>
+
+                <!--Collapsable content-->
+                <div class="inner-content" id="inner-content">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <h2>Meet The Creator</h2>
+                        </div>
+                        <img src="Images/mike_brown.jpg" alt="Mike Brown" class="profile-image">
+                        <h3 class="profile-name">Mike Brown</h3>
+                        <p class="profile-title">Lead Creative Designer</p>
+                        <p class="profile-education">Playground Games</p>
+                        <div class="social-links">
+                            <a href="https://x.com/FlawlessC0wboy/" class="social-icon"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/ForzaHorizon/" class="social-icon"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.reddit.com/r/forza/" class="social-icon"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+
+                        <button class="contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="minecraft">
+            <div class="collapse-container">
+                <img src="Images/minecraft.jpg" class="section-img" alt="Minecraft">
+                <p>
+                    Minecraft is a sandbox video game that lets players explore, build, and survive in a blocky,
+                    procedurally generated world. Players can gather resources, craft tools, construct buildings, and
+                    face challenges like monsters and hunger. With creative and survival modes, Minecraft encourages
+                    creativity, exploration, and problem-solving, making it one of the most popular and versatile games
+                    for all ages.
+                </p>
+                <button id="collapse-button-1">More</button>
+
+                <!--Collapsable content-->
+                <div class="inner-content" id="inner-content-1">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <h2>Meet The Creator</h2>
+                        </div>
+                        <img src="Images/markus-persson.jpg" alt="Markus Persson" class="profile-image">
+                        <h3 class="profile-name">Markus Persson</h3>
+                        <p class="profile-title">Swedish Video Game Programmer and Designer</p>
+                        <p class="profile-education">Växjö University</p>
+                        <div class="social-links">
+                            <a href="https://en.wikipedia.org/wiki/Markus_Persson" class="social-icon"><i
+                                    class="fa-solid fa-globe"></i></a>
+                            <a href="https://x.com/notch" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/xNotch/" class="social-icon"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/xNotch/" class="social-icon"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                        </div>
+
+                        <button class="contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
