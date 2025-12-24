@@ -72,3 +72,15 @@ On this lab, the lab explores even deeper regarding how to utilize Javascript wi
 - Creating progress bar or loading bar
 - Understand the use of event listeners in Javascript
 
+---
+# Lab 8
+## Description  
+This lab focuse on exploring the possibilities of bootstrap library. 
+
+## What did I achieved
+- Understand the fundamentals of bootsrap library
+- Making forms using bootstrap library
+- Using bootstrap templates in website development
+- Publishing static website using GitHub
+
+
